@@ -1,0 +1,46 @@
+#jumpMenu{
+    width: 10%;
+    background-color: rgb(250,98,32);
+    position:fixed;
+    left: 0;
+    top:0;
+    height:100%;
+}
+
+
+header{   
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    top:0;
+    left:10%;
+    background-color:rgb(0,79,182);
+    width:90%;
+    
+}
+header p{
+    font-size: 20px;
+}
+
+body{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#thanks{
+    position:fixed;
+    right:1%;
+    bottom:0;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width:300px;
+}
+
+
